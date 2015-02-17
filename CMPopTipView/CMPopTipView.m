@@ -697,20 +697,20 @@
 		_topMargin = 2.0;
 		_pointerSize = 12.0;
 		_sidePadding = 2.0;
-        _borderWidth = 1.0;
+		_borderWidth = 1.0;
 		
 		self.textFont = [UIFont boldSystemFontOfSize:14.0];
 		self.textColor = [UIColor whiteColor];
 		self.textAlignment = NSTextAlignmentCenter;
 		self.backgroundColor = [UIColor colorWithRed:62.0/255.0 green:60.0/255.0 blue:154.0/255.0 alpha:1.0];
-        self.has3DStyle = YES;
-        self.borderColor = [UIColor blackColor];
-        self.hasShadow = YES;
-        self.animation = CMPopTipAnimationSlide;
-        self.dismissTapAnywhere = NO;
-        self.preferredPointDirection = PointDirectionAny;
-        self.hasGradientBackground = YES;
-        self.cornerRadius = 10.0;
+		self.has3DStyle = YES;
+		self.borderColor = [UIColor blackColor];
+		self.hasShadow = YES;
+		self.animation = CMPopTipAnimationSlide;
+		self.dismissTapAnywhere = NO;
+		self.preferredPointDirection = PointDirectionAny;
+		self.hasGradientBackground = YES;
+		self.cornerRadius = 10.0;
     }
     return self;
 }
